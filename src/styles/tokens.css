@@ -1,0 +1,48 @@
+:root {
+  /* Premium Palette - Deep Ink & Violet */
+  --bg-app: #0B0E14;
+  --bg-surface: #151B23;
+  --bg-glass: rgba(21, 27, 35, 0.7);
+  --bg-glass-light: rgba(255, 255, 255, 0.05);
+
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --text-dim: #64748B;
+
+  --accent-primary: #6366F1;
+  --accent-primary-glow: rgba(99, 102, 241, 0.4);
+  --accent-secondary: #A855F7;
+
+  --border-low: rgba(255, 255, 255, 0.1);
+  --border-med: rgba(255, 255, 255, 0.2);
+
+  /* Semantic Tones - Muted & Sophisticated */
+  --tone-success: #10B981;
+  --tone-warning: #F59E0B;
+  --tone-danger: #EF4444;
+  --tone-info: #3B82F6;
+  --tone-teal: #14B8A6;
+  --tone-amber: #F59E0B;
+  --tone-rose: #F43F5E;
+  --tone-indigo: #6366F1;
+
+  /* Glassmorphism */
+  --glass-bg: rgba(21, 27, 35, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-blur: 16px;
+
+  /* Spacing & Radius */
+  --space-xs: 0.25rem;
+  --space-s: 0.5rem;
+  --space-m: 1rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --radius-m: 16px;
+  --radius-s: 8px;
+  --radius-full: 9999px;
+
+  /* Shadows & Depth */
+  --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --shadow-medium: 0 12px 24px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 20px var(--accent-primary-glow);
+}
