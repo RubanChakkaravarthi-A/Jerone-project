@@ -59,7 +59,7 @@ export const LoginPage = () => {
       <section className="login-story">
         <div className="login-brand">
           <span className="brand-mark"><ShieldCheck size={23} /></span>
-          <span>JERONE</span>
+          <span>MAADASAAMI&CO</span>
         </div>
         <div className="login-story-copy">
           <p className="eyebrow">STUDENT & ADMIN MANAGEMENT</p>
@@ -73,7 +73,7 @@ export const LoginPage = () => {
           <div><GraduationCap size={18} /><span>Connected academic demo data</span></div>
           <div><ShieldCheck size={18} /><span>Frontend-only local persistence</span></div>
         </div>
-        <p className="login-footnote">JERONE is a learning portal demo. It does not connect to a real institution, server, or payment service.</p>
+        <p className="login-footnote">It is a learning portal demo. It does not connect to a real institution, server, or payment service.</p>
       </section>
 
       <section className="login-panel-wrap">
