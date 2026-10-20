@@ -12,8 +12,8 @@ import type {
   StudentApplication
 } from "./types";
 
-const DATA_KEY = "jerone.portal.state.v1";
-const SESSION_KEY = "jerone.portal.session.v1";
+const DATA_KEY = "JPRN.portal.state.v1";
+const SESSION_KEY = "JPRN.portal.session.v1";
 const SESSION_MAX_AGE_MS = 30 * 60 * 1000;
 
 let memoryState: PortalState | undefined;

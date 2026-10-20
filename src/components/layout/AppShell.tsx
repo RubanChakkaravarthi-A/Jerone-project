@@ -66,7 +66,7 @@ export const AppShell = ({ role, children }: PropsWithChildren<{ role: ShellRole
         <div className="brand">
           <span className="brand-mark"><ShieldCheck size={24} /></span>
           <div className="brand-text">
-            <span>JERONE</span>
+            <span>JPRN</span>
             <small>Premium Portal</small>
           </div>
           <button className="mobile-close icon-button" type="button" aria-label="Close navigation" onClick={() => setMobileOpen(false)}>
@@ -156,7 +156,7 @@ export const PageHeader = ({
 }) => (
   <header className="page-header">
     <div>
-      <p className="eyebrow">JERONE PORTAL</p>
+      <p className="eyebrow">JPRN PORTAL</p>
       <h1>{title}</h1>
       <p>{description}</p>
     </div>

@@ -158,7 +158,7 @@ export const AdminSettingsPage = () => {
           <Button type="button" variant="danger" onClick={() => setConfirmReset(true)}><RotateCcw size={17} /> Reset local demo data</Button>
         </Card>
         <Card>
-          <SectionHeader title="Scope reminder" description="JERONE is intentionally frontend-only for this phase." />
+          <SectionHeader title="Scope reminder" description="JPRN is intentionally frontend-only for this phase." />
           <ul className="scope-list"><li>No live authentication or real accounts</li><li>No backend, database, or shared records</li><li>No real payment processing</li><li>Session and changes expire or stay local to this browser</li></ul>
         </Card>
       </div>

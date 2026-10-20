@@ -1,4 +1,4 @@
-# Frontend Scope Documentation — JERONE Portal
+# Frontend Scope Documentation — JPRN Portal
 
 This document outlines the strict guardrails and implementation boundaries for the current phase of the Jerome Project.
 

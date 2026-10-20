@@ -1,4 +1,4 @@
-# JERONE — Smart Dashboard Portal
+# JPRN — Smart Dashboard Portal
 
 A premium, frontend-only demo for Student and Admin management. This project showcases a refined educational SaaS interface with local-first data persistence.
 
@@ -39,8 +39,8 @@ npm run dev
 
 ### Demo Roles
 Use the login page to enter the portal:
-- **Student Demo**: \`student@jerone.demo\` / \`Jerone2026\`
-- **Admin Demo**: \`admin@jerone.demo\` / \`Jerone2026\`
+- **Student Demo**: \`student@JPRN.demo\` / \`JPRN2026\`
+- **Admin Demo**: \`admin@JPRN.demo\` / \`JPRN2026\`
 
 ### Data Persistence
 All changes made during the session (e.g., updating a profile, approving a request) are saved to the browser's \`localStorage\`. To return to the original seed state, use the **Reset local demo data** action in the Admin Settings.
