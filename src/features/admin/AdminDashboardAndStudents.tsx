@@ -89,9 +89,9 @@ export const AdminStudentsPage = () => {
       </Card>
       <Card>
         <SectionHeader title="Student records" description={students.length + " matching records"} />
-        {students.length ? <div className="table-wrap"><table><thead><tr><th>Student</th><th>Programme</th><th>Email</th><th>Attendance</th><th>Status</th><th aria-label="Actions" /></tr></thead><tbody>{students.map((student) => {
+        {students.length ? <div className="table-wrap"><table><thead><tr><th>Student</th><th>Programme</th><th>Email</th><th>Phone</th><th>Semester</th><th>Joined</th><th>Attendance</th><th>Status</th><th aria-label="Actions" /></tr></thead><tbody>{students.map((student) => {
           const percentage = attendancePercent(state.attendance.filter((record) => record.studentId === student.id));
-          return <tr key={student.id}><td><div className="student-cell"><strong>{fullName(student)}</strong><small>{student.studentCode}</small></div></td><td>{student.program}<br /><small>{student.semester}</small></td><td>{student.email}</td><td>{percentage}%</td><td><Badge tone={student.status === "Active" ? "success" : "neutral"}>{student.status}</Badge></td><td><Link className="table-action" to={"/admin/students/" + student.id}>View</Link></td></tr>;
+          return <tr key={student.id}><td><div className="student-cell"><strong>{fullName(student)}</strong><small>{student.studentCode}</small></div></td><td>{student.program}</td><td>{student.email}</td><td>{student.phone}</td><td>{student.semester}</td><td>{student.joinedDate}</td><td>{percentage}%</td><td><Badge tone={student.status === "Active" ? "success" : "neutral"}>{student.status}</Badge></td><td><Link className="table-action" to={"/admin/students/" + student.id}>View</Link></td></tr>;
         })}</tbody></table></div> : <EmptyState title="No student records found" description="Try changing the search or status filter." />}
       </Card>
     </>

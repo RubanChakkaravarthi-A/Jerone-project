@@ -8,9 +8,9 @@ export const seedPortalState: PortalState = {
     {
       id: "STU-1001",
       studentCode: "JRN24CSE001",
-      firstName: "Aarav",
-      lastName: "Menon",
-      email: "aarav.menon@demo.jprn.edu",
+      firstName: "Jerone",
+      lastName: "Sinthanaiselvan",
+      email: "jerone.sinthanaiselvan@demo.jprn.edu",
       phone: "+91 98765 21045",
       program: "B.Tech Computer Science",
       semester: "Semester 5",
@@ -21,7 +21,7 @@ export const seedPortalState: PortalState = {
       id: "STU-1002",
       studentCode: "JRN24CSE002",
       firstName: "Kavya",
-      lastName: "Nair",
+      lastName: "Ram",
       email: "kavya.nair@demo.jprn.edu",
       phone: "+91 98765 21046",
       program: "B.Tech Computer Science",
@@ -32,9 +32,9 @@ export const seedPortalState: PortalState = {
     {
       id: "STU-1003",
       studentCode: "JRN24DS003",
-      firstName: "Rohan",
-      lastName: "Shah",
-      email: "rohan.shah@demo.jprn.edu",
+      firstName: "Priyan",
+      lastName: "Guru",
+      email: "priyan.guru@demo.jprn.edu",
       phone: "+91 98765 21047",
       program: "B.Sc Data Science",
       semester: "Semester 3",
@@ -44,13 +44,61 @@ export const seedPortalState: PortalState = {
     {
       id: "STU-1004",
       studentCode: "JRN23BBA004",
-      firstName: "Meera",
-      lastName: "Iyer",
-      email: "meera.iyer@demo.jprn.edu",
+      firstName: "Rajesh",
+      lastName: "bhai",
+      email: "rajesh.bhai@demo.jprn.edu",
       phone: "+91 98765 21048",
       program: "BBA",
       semester: "Semester 5",
       status: "Inactive",
+      joinedDate: "2023-07-11"
+    },
+    {
+      id: "STU-1005",
+      studentCode: "JRN24CSE005",
+      firstName: "Nithish",
+      lastName: "Raj",
+      email: "nithish.raj@demo.jprn.edu",
+      phone: "+91 98765 21049",
+      program: "B.Tech Computer Science",
+      semester: "Semester 5",
+      status: "Active",
+      joinedDate: "2024-07-08"
+    },
+    {
+      id: "STU-1006",
+      studentCode: "JRN24DS006",
+      firstName: "Adhitya",
+      lastName: "Varma",
+      email: "adhithya.verma@demo.jprn.edu",
+      phone: "+91 98765 21050",
+      program: "B.Sc Data Science",
+      semester: "Semester 3",
+      status: "Active",
+      joinedDate: "2025-07-14"
+    },
+    {
+      id: "STU-1007",
+      studentCode: "JRN24CSE007",
+      firstName: "Siddharth",
+      lastName: "Joshi",
+      email: "siddharth.joshi@demo.jprn.edu",
+      phone: "+91 98765 21051",
+      program: "B.Tech Computer Science",
+      semester: "Semester 5",
+      status: "Active",
+      joinedDate: "2024-07-08"
+    },
+    {
+      id: "STU-1008",
+      studentCode: "JRN23BBA008",
+      firstName: "Zoya",
+      lastName: "Khan",
+      email: "zoya.khan@demo.jprn.edu",
+      phone: "+91 98765 21052",
+      program: "BBA",
+      semester: "Semester 5",
+      status: "Active",
       joinedDate: "2023-07-11"
     }
   ],
@@ -77,7 +125,7 @@ export const seedPortalState: PortalState = {
       id: "CRS-103",
       code: "CS503",
       title: "Applied Machine Learning",
-      instructor: "Dr. Nisha Kapoor",
+      instructor: "Dr. Nisha",
       term: "Autumn 2026",
       credits: 4,
       capacity: 40
@@ -89,6 +137,24 @@ export const seedPortalState: PortalState = {
       instructor: "Prof. Vikram Das",
       term: "Autumn 2026",
       credits: 3,
+      capacity: 36
+    },
+    {
+      id: "CRS-105",
+      code: "DS305",
+      title: "Computer Application",
+      instructor: "Prof. Gopal Madasaami",
+      term: "Autumn 2026",
+      credits: 3,
+      capacity: 36
+    },
+    {
+      id: "CRS-106",
+      code: "DS306",
+      title: "DSA",
+      instructor: "Prof. MARK Mayaandi",
+      term: "Autumn 2026",
+      credits: 4,
       capacity: 36
     }
   ],

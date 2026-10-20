@@ -46,10 +46,22 @@ const safeWrite = <T,>(key: string, value: T): void => {
 const readState = (): PortalState => {
   const stored = safeRead<PortalState>(DATA_KEY);
   if (stored && Array.isArray(stored.students) && Array.isArray(stored.courses)) {
-    return stored;
+    return clone({
+      ...seedPortalState,
+      ...stored,
+      students: stored.students,
+      courses: stored.courses,
+      enrollments: stored.enrollments ?? seedPortalState.enrollments,
+      attendance: stored.attendance ?? seedPortalState.attendance,
+      results: stored.results ?? seedPortalState.results,
+      announcements: stored.announcements ?? seedPortalState.announcements,
+      timetable: stored.timetable ?? seedPortalState.timetable,
+      fees: stored.fees ?? seedPortalState.fees,
+      applications: stored.applications ?? seedPortalState.applications,
+    });
   }
   if (!memoryState) memoryState = clone(seedPortalState);
-  return memoryState;
+  return clone(memoryState);
 };
 
 const writeState = (state: PortalState): PortalState => {
@@ -149,6 +161,19 @@ export const repository = {
     } else {
       const id = nextId("CRS-", state.courses.map((course) => course.id));
       state.courses.push({ ...input, id, code: normalizedCode });
+
+      // Automatically enroll all active students in new courses for demo synchronization
+      state.students
+        .filter((student) => student.status === "Active")
+        .forEach((student) => {
+          state.enrollments.push({
+            id: nextId("ENR-", state.enrollments.map((e) => e.id)),
+            studentId: student.id,
+            courseId: id,
+            schedule: "TBD",
+            room: "TBD"
+          });
+        });
     }
     return writeState(state);
   },
