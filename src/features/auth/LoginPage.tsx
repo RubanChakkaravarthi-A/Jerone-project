@@ -59,7 +59,7 @@ export const LoginPage = () => {
       <section className="login-story">
         <div className="login-brand">
           <span className="brand-mark"><ShieldCheck size={23} /></span>
-          <span>MAADASAAMI&CO</span>
+          <span>JPRN</span>
         </div>
         <div className="login-story-copy">
           <p className="eyebrow">STUDENT & ADMIN MANAGEMENT</p>
