@@ -1,6 +1,6 @@
 # Frontend Scope Documentation — JPRN Portal
 
-This document outlines the strict guardrails and implementation boundaries for the current phase of the Jerome Project.
+This document outlines the strict guardrails and implementation boundaries for the current phase of the JPRN Project.
 
 ## 🎯 Primary Objective
 The goal is to deliver a polished, "demo-ready" React frontend that represents the intended user experience and workflows of the Smart Dashboard Portal. The focus is on **visual excellence**, **interaction design**, and **local state management**.
