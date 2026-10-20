@@ -7,13 +7,13 @@ import { Button, FormField, Message } from "../../components/ui";
 
 const credentials: Record<UserRole, { email: string; password: string; label: string }> = {
   student: {
-    email: "student@JPRN.demo",
-    password: "JPRN2026",
+    email: "student@jprn.demo",
+    password: "jprn2026",
     label: "Student demo"
   },
   admin: {
-    email: "admin@JPRN.demo",
-    password: "JPRN2026",
+    email: "admin@jprn.demo",
+    password: "jprn2026",
     label: "Admin demo"
   }
 };

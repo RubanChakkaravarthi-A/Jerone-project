@@ -39,8 +39,8 @@ npm run dev
 
 ### Demo Roles
 Use the login page to enter the portal:
-- **Student Demo**: \`student@JPRN.demo\` / \`JPRN2026\`
-- **Admin Demo**: \`admin@JPRN.demo\` / \`JPRN2026\`
+- **Student Demo**: \`student@jprn.demo\` / \`jprn2026\`
+- **Admin Demo**: \`admin@jprn.demo\` / \`jprn2026\`
 
 ### Data Persistence
 All changes made during the session (e.g., updating a profile, approving a request) are saved to the browser's \`localStorage\`. To return to the original seed state, use the **Reset local demo data** action in the Admin Settings.
